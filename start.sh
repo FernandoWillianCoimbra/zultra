@@ -10,5 +10,5 @@ echo "🧬 Identificador do nó: $ZID" > zid.log
 # Loop de existência viva
 while true; do
   echo "🟢 [$ZID] Z Ultra executando $(date '+%d/%m/%Y %H:%M:%S')" >> log-zultra.log
-  sleep 30
+  while true; do
 done
